@@ -43,6 +43,28 @@ export const Projects = ({ title, cards }) => {
 	);
 }
 
+export const Internships = ({ title, cards }) => {
+	return (
+		<div id="internships" className="bg-info py-5 px-5">
+			<div className="container">
+				<h1 className="text-light fw-bold">Internships</h1>
+				<div className="d-flex flex-row flex-wrap justify-content-center">
+					{cards.map((value, index) => (
+						<Card
+							key={index}
+							title={value.title}
+							description={value.description}
+							icons={value.icons} />
+					))}
+				</div>
+				{/* <div className="text-center">
+					<button type="button" className="btn btn-outline-light">See More</button>
+				</div> */}
+			</div>
+		</div>
+	);
+}
+
 export const Card = ({ title, description, icons }) => {
 	return (
 		<div className="card py-3 px-3 mx-sm-4 my-4 card-work" style={{ width: "20rem" }}>
