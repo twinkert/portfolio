@@ -61,6 +61,7 @@ export default function Home() {
           <h5>My team began by creating a plan. We came up with how many tasks we had to accomplish and how much time we had to spend ont each task. We then divided each task and assigned roles for each member on the team.</h5>
 
           <h5 className="py-5 px-5 container-small text-center justify-content-between" >Phase One. Build the Swarmies.</h5>
+
           <img className="img-fluid my-3 card-image" src={swarm1.src} alt="image" width="600" height="600" />
           <h5 className="py-5 px-5 container-small text-center justify-content-between" >My team was given three disassembled robots to assemble. We set one month timeframe to assemble each of the robots. We had to attach electronic motors and wheels to the base. We then connected the ultrasonic sensors, camera, gps, and wifi chip to the robots logic board. </h5>
 
@@ -95,7 +96,7 @@ export default function Home() {
 
 
 
-          <div class="row align-items-center">
+          <div className="row align-items-center">
 
 
             {isSSR ? null : <ReactPlayer className="col-md-8 mx-auto " controls url={"https://youtu.be/IXaHsQAIwE0"} />}
@@ -105,7 +106,7 @@ export default function Home() {
           </div>
 
 
-          <div class="row align-items-center my-4">
+          <div className="row align-items-center my-4">
             {isSSR ? null : <ReactPlayer className="col-md-8 mx-auto " controls url={"https://youtu.be/-DNvPT3Y8vw"} />}
             {isSSR ? null : <ReactPlayer className="col-md-8 mx-auto " controls url={"https://youtu.be/gcmbdR64JCI"} />}
 

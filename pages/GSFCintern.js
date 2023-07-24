@@ -28,6 +28,13 @@ export default function Home() {
   //const playerRef = dynamic(( )=> {ssr: false });
   //const TestimonialCard = dynamic(() => import('./TestimonialCard'), { ssr: false })
 
+
+  /*
+            <h5 className="py-5 px-5 container-small text-center justify-content-between" >Project findings.</h5>
+  <img className="img-fluid my-3 card-image" src={img1.src} alt="image" width="600" height="600" />
+          <h5 className="py-5 px-5 container-small text-center justify-content-between" >Me presenting my findings!</h5>
+  */
+
   return (//<div><img src = {swarmTeam.src} alt = "swarm team" width="400" height="400"/></div>
 
     <Fragment>
@@ -44,10 +51,9 @@ export default function Home() {
 
         <div className="py-5 px-5 container-small text-center justify-content-between text-align-justify ">
           <h3>NASA Goddard Space Flight Center Internship</h3> <br></br>
-          <img className="img-fluid my-3 card-image" src={img2.src} alt="image" width="600" height="600" />
-          <h5 className="py-5 px-5 container-small text-center justify-content-between" >Project findings.</h5>
-          <img className="img-fluid my-3 card-image" src={img1.src} alt="image" width="600" height="600" />
-          <h5 className="py-5 px-5 container-small text-center justify-content-between" >Me presenting my findings!</h5>
+          <img className="img-fluid my-3 card-image" src={img2.src} alt="image" width="1000" height="600" />
+
+
 
 
 

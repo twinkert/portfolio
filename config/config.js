@@ -59,7 +59,7 @@ export const navigation = {
 
 export const intro = {
 	title: "Hey, I'm Thomas",
-	description: "A fun Computer Scientist who enjoys image processing and data analytics.",
+	description: "A Computer Scientist who enjoys image processing and data analytics.",
 	image: profile.src,
 	buttons: [
 		{
