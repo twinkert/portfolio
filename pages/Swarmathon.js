@@ -11,8 +11,8 @@ import { Header } from '../components/Header';
 
 //import images
 import swarmTeam from './swarmathonMCteam.jpg';
-import swarm1 from './Swarm/Swarm1.jpg';
-import swarm2 from './Swarm/Swarm2.jpg';
+import swarm1 from '../pages/Swarm/Swarm1.jpg';
+import swarm2 from '../pages/Swarm/Swarm2.jpg';
 import ksc from './Swarm/KSC.jpg';
 import ros1 from './Swarm/ROS.png';
 import ros2 from './Swarm/ROS2.png';
