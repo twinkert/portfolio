@@ -14,7 +14,7 @@ console.log(`Deploying to ${repoURL} branch ${branch}`);
  * [repoURL] - The URL of the GitHub repository to deploy to
  * [branch] - The branch to deploy to
  * [build_path] - The path to the built site
- * 
+ *
  * node scripts/pages.js <username> <branch>
  * i.e.
  * node scripts/pages.js hashirshoaeb master
