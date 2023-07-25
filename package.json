@@ -12,12 +12,12 @@
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",
-    "build": "next build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "dev": "next dev",
-    "start": "next start",
     "export": "next export",
-    "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
-    "deploy": "node scripts/pages.js twinkert master",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "custom-domain": "node scripts/cname.js hashirshoaeb.com www.hashirshoaeb.com",
     "lint": "next lint"
   },
@@ -31,6 +31,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-player": "^2.12.0",
+    "react-scripts": "^5.0.1",
     "react-video-js-player": "^1.1.1"
   },
   "devDependencies": {
