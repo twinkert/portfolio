@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "description": "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-  "homepage": "http://hashirshoaeb.com",
+  "homepage": "https://twinkert.github.io/portfolio/",
   "version": "0.2.0",
   "license": "MIT",
   "private": true,
@@ -16,8 +16,8 @@
     "dev": "next dev",
     "start": "next start",
     "export": "next export",
-    "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
-    "deploy": "npm run custom-domain && node scripts/pages.js hashirshoaeb master",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "custom-domain": "node scripts/cname.js hashirshoaeb.com www.hashirshoaeb.com",
     "lint": "next lint"
   },
