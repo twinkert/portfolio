@@ -11,12 +11,12 @@ import { Header } from '../components/Header';
 
 //import images
 import swarmTeam from './swarmathonMCteam.jpg';
-import swarm1 from './swarm/Swarm1.jpg';
-import swarm2 from './swarm/Swarm2.jpg';
-import ksc from './swarm/KSC.jpg';
-import ros1 from './swarm/ROS.png';
-import ros2 from './swarm/ROS2.png';
-import ros3 from './swarm/ROS3.png';
+import swarm1 from './Swarm1.jpg';
+import swarm2 from './Swarm2.jpg';
+import ksc from './KSC.jpg';
+import ros1 from './ROS.png';
+import ros2 from './ROS2.png';
+import ros3 from './ROS3.png';
 
 
 /*loaders: [{
