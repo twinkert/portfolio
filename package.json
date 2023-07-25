@@ -12,8 +12,8 @@
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "next start",
+    "build": "next build && next export",
     "dev": "next dev",
     "export": "next export",
     "predeploy": "npm run build",
