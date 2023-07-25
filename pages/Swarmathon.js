@@ -55,7 +55,7 @@ export default function Home() {
       <div className="d-flex flex-column flex-row justify-content-between bg-secondary min-vh-100">
 
         <div className="py-5 px-5 container-small text-center justify-content-between text-align-justify ">
-          <h3>NASA's Swarmathon Competition</h3> <br></br>
+          <h3>NASA&apos;s Swarmathon Competition</h3> <br></br>
 
 
           <h5>My team began by creating a plan. We came up with how many tasks we had to accomplish and how much time we had to spend ont each task. We then divided each task and assigned roles for each member on the team.</h5>
@@ -75,7 +75,7 @@ export default function Home() {
           <img className="img-fluid my-3 card-image" src={ros2.src} alt="image" width="600" height="600" />
           <h5 className="py-5 px-5 container-small text-center justify-content-between" >Physics modeling in a virtual environment.</h5>
           <img className="img-fluid my-3 card-image" src={ros3.src} alt="image" width="600" height="600" />
-          <h5 className="py-5 px-5 container-small text-center justify-content-between" >We are able to see odometry, sensor, and camera data from the robot. You're right now seeing a virtual environment from the camera.</h5>
+          <h5 className="py-5 px-5 container-small text-center justify-content-between" >We are able to see odometry, sensor, and camera data from the robot. You&apos;re right now seeing a virtual environment from the camera.</h5>
           <h5 className="py-5 px-5 container-small text-center justify-content-between" >Programming Method</h5>
           <h6 className="py-5 px-5 container-small text-center justify-content-between" >
             There was a number of controllers we were able to use to develop.
@@ -85,11 +85,11 @@ export default function Home() {
             how much power to give each wheel to determine driving in a straight line, turning, and reversing.
             Then our next challenge was to program path planning for our little swarmie.
             This was a tough task as we were learning. We tried using a few different algorithmns, but found
-            "Improved Dijkstra Algorithm for Mobile Robot Path Planning and Obstacle Avoidance " by Shaher Alshammrei, Sahbi Boubaker, and Lioua Kolsi to be
+            <q>Improved Dijkstra Algorithm for Mobile Robot Path Planning and Obstacle Avoidance</q> by Shaher Alshammrei, Sahbi Boubaker, and Lioua Kolsi to be
             our guide for obstacles. This guide allowed us to follow Dijkstras algorithmn with and without obstacles using
             our ultrasonic sensors. We first got the robot to follow a black straight line on the floor, then we
             advanced to adding turns into the black tape course.
-            After avoiding obstacles, we worked on picking object blocks up. Using the ultrasonic sensor, we we're able to
+            After avoiding obstacles, we worked on picking object blocks up. Using the ultrasonic sensor, we we&apos;re able to
             pick small block objects up by communicating with the claw on the robot. The drop off was used to
             release the objected that was picked up.
           </h6>
@@ -132,9 +132,9 @@ export default function Home() {
 
           <br></br>
 
-          <div class="container">
+          <div className="container">
           <h3 >Project Resources</h3>
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
               <li><a href="https://www.nasa.gov/feature/swarmathon-improves-student-skills-in-robotics-computer-science/">Swarmathon Improves Student Skills in Robotics, Computer Science</a></li>
               <li><a href="https://www.techscience.com/cmc/v72n3/47552/html">Improved Dijkstra Algorithm for Mobile Robot Path Planning and Obstacle Avoidance</a></li>
             </ul>
