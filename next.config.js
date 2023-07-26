@@ -22,6 +22,7 @@ const basePath = getBasePath()
 console.warn(
   // "Are you publishing to <username>.github.io ? then [basePath] should be empty.\n" +
   // "Are you publishing to <username>.github.io/<repository> ? then [basePath] should be /<repository>.\n" +
+  //module.exports = nextConfig
   `P.S. [basePath] is {${basePath}}`
 )
 
@@ -34,5 +35,16 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+module.exports = nextConfig, {
+
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    config.module.rules.push({
+      test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+      loader: require.resolve("url-loader")
+    });
+
+    return config;
+  }
+};
+
 
