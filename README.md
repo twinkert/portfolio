@@ -4,7 +4,7 @@
   <h1 align="center">Developer's Portfolio ✨</h1>
 
   <p align="center">
-    This portfolio template were taken from <a href = "https://github.com/hashirshoaeb">https://github.com/hashirshoaeb</a>. I added and deleted to his portfolio template to fit me.
+    This portfolio template were taken from open sourced code <a href = "https://github.com/hashirshoaeb">https://github.com/hashirshoaeb</a>. I added and deleted to his portfolio template to fit me.
     <br />
     <strong>Site URL / Demo » </strong>
     <a href="https://twinkertportfolio.vercel.app/"> https://twinkertportfolio.vercel.app/</a>
