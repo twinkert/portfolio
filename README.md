@@ -7,7 +7,7 @@
     It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.
     <br />
     <strong>Site URL / Demo » </strong>
-    <a href="https://twinkertportfolio.vercel.app/"> hashirshoaeb.github.io/portfolio</a>
+    <a href="https://twinkertportfolio.vercel.app/"> https://twinkertportfolio.vercel.app/</a>
     <br />
     <br />
     <a href="https://https://twinkertportfolio.vercel.app/">About Me</a>
