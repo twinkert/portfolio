@@ -47,6 +47,15 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig;
+module.exports = nextConfig, {
+
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    config.module.rules.push({
+      test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+      loader: require.resolve("url-loader")
+    });
+
+    return config;
+  };
 
 
