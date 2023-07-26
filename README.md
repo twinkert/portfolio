@@ -66,11 +66,6 @@ I know one template doesn't fulfill everyone's needs. So I'll try adding more fe
 
 
 
-<!-- GETTING STARTED -->
-# Getting Started
-
-Building your own personal website from this project can take as little as 30 minutes. Follow the setup instructions below. Please feel free to reach out to me by filing an [issue](https://github.com/hashirshoaeb/portfolio/issues) or emailing me at hashirshoaeb@gmail.com for help configuring your project.
-
 ## Prerequisites
 
 You should have [Nodejs](https://nodejs.org/en/) and [Git](https://git-scm.com/downloads) installed on your PC. You should also own a GitHub account.
