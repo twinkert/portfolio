@@ -4,7 +4,7 @@
   <h1 align="center">Developer's Portfolio ✨</h1>
 
   <p align="center">
-    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.
+    This portfolio template were taken from <a href = "https://github.com/hashirshoaeb">https://github.com/hashirshoaeb</a>. I added and deleted to his portfolio template to fit me.
     <br />
     <strong>Site URL / Demo » </strong>
     <a href="https://twinkertportfolio.vercel.app/"> https://twinkertportfolio.vercel.app/</a>
