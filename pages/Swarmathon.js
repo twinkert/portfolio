@@ -55,7 +55,7 @@ export default function Home() {
       <div className="d-flex flex-column flex-row justify-content-between bg-secondary min-vh-100">
 
         <div className="py-5 px-5 container-small text-center justify-content-between text-align-justify ">
-          <h3>NASA&apos;s KSC Internship</h3> <br></br>
+          <h3>NASA&apos;s Kennedy Space Center Internship</h3> <br></br>
 
 
           <h5>My team began by creating a plan. We came up with how many tasks we had to accomplish and how much time we had to spend ont each task. We then divided each task and assigned roles for each member on the team.</h5>
