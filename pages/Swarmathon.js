@@ -11,12 +11,12 @@ import { Header } from '../components/Header';
 
 //import images
 import swarmTeam from '../pages/swarmathonMCteam.jpg';
-import swarm1 from '../pages/swarm1.jpg';
-import swarm2 from '../pages/swarm2.jpg';
-import ksc from '../pages/ksc.jpg';
-import ros1 from '../pages/ros.png';
-import ros2 from '../pages/ros2.png';
-import ros3 from '../pages/ros3.png';
+import swarm1 from '../pages/swarmie.jpg';
+import swarm2 from '../pages/swarmiee.jpg';
+import ksc from '../pages/KSC.jpg';
+import ros1 from '../pages/ROS.png';
+import ros2 from '../pages/ROS2.png';
+import ros3 from '../pages/ROS3.png';
 
 
 /*loaders: [{
