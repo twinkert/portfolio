@@ -178,15 +178,15 @@ export const links = {
 	cards: [
 		{
 			title: "My website",
-			link: "/",
+			link: "./",
 		},
 		{
 			title: "Internships",
-			link: "/",
+			link: "./#internships",
 		},
 		{
 			title: "Projects",
-			link: "/",
+			link: "./",
 		},
 		{
 			title: "My GitHub",
