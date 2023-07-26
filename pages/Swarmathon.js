@@ -76,23 +76,23 @@ export default function Home() {
           <h5 className="py-5 px-5 container-small text-center justify-content-between" >Physics modeling in a virtual environment.</h5>
           <img className="img-fluid my-3 card-image" src={ros3.src} alt="image" width="600" height="600" />
           <h5 className="py-5 px-5 container-small text-center justify-content-between" >We are able to see odometry, sensor, and camera data from the robot. You&apos;re right now seeing a virtual environment from the camera.</h5>
-          <h5 className="py-5 px-5 container-small text-center justify-content-between" >Programming Method</h5>
-          <h6 className="py-5 px-5 container-small text-center justify-content-between" >
-            There was a number of controllers we were able to use to develop.
-            We used the drive, drop off, manual way point, obstacle, pick up, range, and search controllers
-            to program and communicate with each other. First, we had to get the robot to even move. The drive
-            controller was simple enough for this task. We sent commands on loop to the wheels motors. We figured out
-            how much power to give each wheel to determine driving in a straight line, turning, and reversing.
+          <h5 >Programming Method</h5>
+          <h5 >
+            There were a number of controllers we were able to use to develop our project. We used the drive, drop off, manual waypoint, obstacle, pick up, range, and search controllers to program and communicate with each other.
+            First, we had to get the robot to move. The drive controller was simple enough for this task.
+            We sent commands in a loop to the wheel motors, figuring out how much power to give each wheel to achieve driving in a straight line, turning, and reversing.
+
             Then our next challenge was to program path planning for our little swarmie.
-            This was a tough task as we were learning. We tried using a few different algorithmns, but found
-            <q>Improved Dijkstra Algorithm for Mobile Robot Path Planning and Obstacle Avoidance</q> by Shaher Alshammrei, Sahbi Boubaker, and Lioua Kolsi to be
-            our guide for obstacles. This guide allowed us to follow Dijkstras algorithmn with and without obstacles using
-            our ultrasonic sensors. We first got the robot to follow a black straight line on the floor, then we
-            advanced to adding turns into the black tape course.
-            After avoiding obstacles, we worked on picking object blocks up. Using the ultrasonic sensor, we we&apos;re able to
-            pick small block objects up by communicating with the claw on the robot. The drop off was used to
-            release the objected that was picked up.
-          </h6>
+            This was a tough task as we were learning.
+            We tried using a few different algorithms, but found the <q>Improved Dijkstra Algorithm for Mobile Robot Path Planning and Obstacle Avoidance</q> by Shaher Alshammrei, Sahbi Boubaker, and Lioua Kolsi to be our guide for handling obstacles.
+            This guide allowed us to follow Dijkstra's algorithm with and without obstacles using our ultrasonic sensors. We first got the robot to follow a black straight line on the floor, and then we advanced to adding turns into the black tape course.
+
+            After avoiding obstacles, we worked on picking up object blocks.
+            Using the ultrasonic sensor, we were able to pick small block objects up by communicating with the robot&apos;s claw.
+            The drop-off controller was used to release the objects that were picked up.
+          </h5>
+
+          <br></br>
 
 
 
@@ -133,7 +133,7 @@ export default function Home() {
           <br></br>
 
           <div className="container">
-          <h3 >Project Resources</h3>
+            <h3 >Project Resources</h3>
             <ul className="list-unstyled">
               <li><a href="https://www.nasa.gov/feature/swarmathon-improves-student-skills-in-robotics-computer-science/">Swarmathon Improves Student Skills in Robotics, Computer Science</a></li>
               <li><a href="https://www.techscience.com/cmc/v72n3/47552/html">Improved Dijkstra Algorithm for Mobile Robot Path Planning and Obstacle Avoidance</a></li>

@@ -109,7 +109,7 @@ export const internships = {
 			icons: [
 				{
 					icon: faGithub,
-					link: "/Swarmathon",
+					link: "./Swarmathon",
 				},
 			]
 		},
@@ -119,7 +119,7 @@ export const internships = {
 			icons: [
 				{
 					icon: faAppStore,
-					link: "/GSFCintern",
+					link: "./GSFCintern",
 				},
 			]
 		},
