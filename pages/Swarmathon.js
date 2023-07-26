@@ -85,7 +85,7 @@ export default function Home() {
             Then our next challenge was to program path planning for our little swarmie.
             This was a tough task as we were learning.
             We tried using a few different algorithms, but found the <q>Improved Dijkstra Algorithm for Mobile Robot Path Planning and Obstacle Avoidance</q> by Shaher Alshammrei, Sahbi Boubaker, and Lioua Kolsi to be our guide for handling obstacles.
-            This guide allowed us to follow Dijkstra's algorithm with and without obstacles using our ultrasonic sensors. We first got the robot to follow a black straight line on the floor, and then we advanced to adding turns into the black tape course.
+            This guide allowed us to follow Dijkstra&apos;s algorithm with and without obstacles using our ultrasonic sensors. We first got the robot to follow a black straight line on the floor, and then we advanced to adding turns into the black tape course.
 
             After avoiding obstacles, we worked on picking up object blocks.
             Using the ultrasonic sensor, we were able to pick small block objects up by communicating with the robot&apos;s claw.
