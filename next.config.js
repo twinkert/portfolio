@@ -47,7 +47,9 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig, {
+module.exports = nextConfig,
+
+
 
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.module.rules.push({
